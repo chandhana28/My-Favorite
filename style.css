@@ -12,7 +12,7 @@ html {
     margin: 10px auto;
 }
 
-img {
+#mike {
     border-radius: 50%;
     width: 120px;
     height: 100px;
@@ -78,11 +78,6 @@ a {
 #songs {
     color: black;
     font-size: 18px;
-}
-
-Me Singing {
-    width: auto;
-    height: auto;
 }
 
 figcaption {
