@@ -1,8 +1,9 @@
-html {
+body {
     text-align: center;
     background: linear-gradient(pink 0%, lightblue 100%);
     height: inherit;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .line {
@@ -43,6 +44,7 @@ p {
     margin-top: 0;
     top: 0;
     padding-top: 20px;
+    left: 0;
 }
 
 .links {
@@ -87,18 +89,28 @@ figcaption {
     font-size: 20px;
 }
 
-.media{
+.media {
     background: linear-gradient(pink 0%, lightblue 100%);
     bottom: 0;
+    overflow-x: hidden;
     margin-bottom: 0;
+    width: 100%;
     padding: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
 }
 
-h3{
+h3 {
     display: inline;
 }
 
-#Email{
-  text-decoration: none;
+#Email {
+    text-decoration: none;
     color: black;
 }
